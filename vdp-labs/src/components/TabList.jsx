@@ -1,4 +1,5 @@
 import { Tabs } from 'antd';
+import Lab1 from './Lab1';
 import Lab5 from './Lab5';
 
 
@@ -9,7 +10,7 @@ const TabList = () => {
     return (
     <Tabs defaultActiveKey="1" type="card" size="small">
     <TabPane tab="Лабораторна робота 1" key="1">
-    Content of card tab 3
+    <Lab1/>
     </TabPane>
     <TabPane tab="Лабораторна робота 2" key="2">
     Content of card tab 3
