@@ -1,7 +1,7 @@
-import img from "./lab5.png";
-import result from "./res5.png";
-import result2 from "./res52.png";
-import formula5 from "./formula5.png";
+import img from "../static/lab5.png";
+import result from "../static/res5.png";
+import result2 from "../static/res52.png";
+import formula5 from "../static/formula5.png";
 
 const ContentLabFive = () => (
     <div className="content" >

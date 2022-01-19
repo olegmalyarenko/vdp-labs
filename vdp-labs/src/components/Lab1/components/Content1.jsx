@@ -1,7 +1,7 @@
-import task from "./task1.png";
-import schema from "./schema.png"
-import result from "./res1.png";
-import result2 from "./res2.png";
+import task from "../static/task1.png";
+import schema from "../static/schema.png"
+import result from "../static/res1.png";
+import result2 from "../static/res2.png";
 
 const Content1 = () => (
 <div className="content" >
