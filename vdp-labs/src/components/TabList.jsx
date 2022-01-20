@@ -1,8 +1,7 @@
 import { Tabs } from 'antd';
 import Lab1 from './Lab1';
+import Lab2 from './Lab2';
 import Lab5 from './Lab5';
-
-
 
 const { TabPane } = Tabs;
 
@@ -13,7 +12,7 @@ const TabList = () => {
     <Lab1/>
     </TabPane>
     <TabPane tab="Лабораторна робота 2" key="2">
-    Content of card tab 3
+    <Lab2/>
     </TabPane>
     <TabPane tab="Лабораторна робота 3" key="3">
       Content of card tab 3

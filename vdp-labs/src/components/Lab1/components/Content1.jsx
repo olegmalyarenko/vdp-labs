@@ -86,7 +86,7 @@ const Content1 = () => (
             <img src={result2} alt="schema" width={500} height={150}/>
         </div>
 
-        <div className="content" id="check5">
+        <div className="content" id="check">
             <h4>Аналіз достовірності результатів</h4>
             <p>Перевіряюмо отримані результати по наведеному вище першому прикладу:</p>
             <div> Маємо дані a= 3,b=5 c = 4, d =6. </div>
