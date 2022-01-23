@@ -35,3 +35,7 @@ h4,h3, h5, h6 {
 h5{
    padding-top: 20px;
 }
+
+.row{
+  padding-bottom: 20px;
+}
