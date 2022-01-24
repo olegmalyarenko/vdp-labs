@@ -1,6 +1,7 @@
 import AceEditor from "react-ace";
 import algorithm from "../constants/algorithm";
 import res from "../static/res7.png";
+import schema7 from "../static/schema7.jpg";
 
 const Content7 = () => (
     <div className="content">
@@ -52,14 +53,15 @@ const Content7 = () => (
                        <li>Додаємо цей елемент в масив res</li>
                        <li>Збільшуємо індекси j та k</li>
                     </ul>
+                </ul>    
                     <li>Виводимо отриманий масив res</li>
                 </ul>
-                <li>Створюємо змінну n=1, для номера значення найбільшого числа Фібоначчі, яке не перевищує число a та b</li>
-                <li>Поки число Фібоначчі від n меньша за a та b, збільшуємо n</li>
-                <li>Шукаємо номер найменьшого числа Фібоначчі від зменьшеного на 1цю n </li>
-                <li>Виводимо отриманий результат</li>
-            </ul>
-            </div>
+            </div>   
+        </div> 
+
+        <div className="content" id="schema7">
+            <h4>Блок-схема Сортування злиттям</h4>
+            <img src={schema7} alt="schema" width={500}/>
         </div> 
 
         <div className="content" id="code7">
