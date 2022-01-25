@@ -7,6 +7,7 @@ import Lab5 from './Lab5';
 import Lab6 from './Lab6';
 import Lab7 from './Lab7';
 import Lab8 from './Lab8';
+import Lab9 from './Lab9';
 
 const { TabPane } = Tabs;
 
@@ -38,7 +39,7 @@ const TabList = () => {
      <Lab8/>
     </TabPane>
     <TabPane tab="Лабораторна робота 9" key="9">
-      Content of card tab 3
+     <Lab9/>
     </TabPane>
     <TabPane tab="Лабораторна робота 10" key="10">
       Content of card tab 10
