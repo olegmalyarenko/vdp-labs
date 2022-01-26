@@ -2,10 +2,11 @@ import AceEditor from "react-ace";
 import algorithm from "../constants/algorithm";
 import result from "../static/lab8result.png"
 import matrix from "../static/ll8.png";
+import schema8 from "../static/schema8.jpg";
 
 const Content8 = () => (
-<div className="content">
-        <div id="meta8" className="content">
+<div className="content ">
+        <div id="meta8" className="content ml">
             <h3>Лабораторна робота №8</h3>
             <h4>Тема: Багатовимірні масиви</h4>
             <ul><h4>Мета роботи:</h4>
@@ -15,20 +16,20 @@ const Content8 = () => (
             </ul>
         </div>
 
-        <div className="content" id="task8">
+        <div className="content ml" id="task8">
         <h4>Варіант №17</h4>
         <h4>Умова завдання</h4>
         <p>Задати матрицю довільної вимірності та вектор. <br/>Визначити транспоновану матрицю та здійснити множення матриці на вектор.</p>
         </div>
 
-        <div className="content" id="analize8">
+        <div className="content ml" id="analize8">
             <h4>Аналіз задачі, теоретичні обгрунтування вибраного методу вирішення задачі,<br/> розрахункові формули, посилання на літературні джерела.</h4>
-        <p>Транспонована матриця — це матриця A^T, що виникає з матриці A в результаті унарної операції транспонування: заміни її рядків на стовпчики.</p>
-        <img src={matrix} alt="schema" width={200}/>
+        <p>Транспонована матриця — це матриця A^T, що виникає з матриці A <br/> в результаті унарної операції транспонування: заміни її рядків на стовпчики.</p>
+        <img src={matrix} alt="schema" width={400}/>
         <p>Множення матриці на вектор проводиться за правилом «рядок на стовпець».<br/> При множенні матриці на вектор-стовпчик число стовпців у матриці має співпадати з числом рядків у векторі-стовпці.<br/> Результатом множення матриці на вектор-стовпець є вектор-стовпець</p>
         </div>
          
-        <div className="content" id="descr7">
+        <div className="content ml" id="descr8">
             <h4>Опис алгоритму розв'язання задачі.</h4>
             <div>
             <ul>
@@ -56,7 +57,12 @@ const Content8 = () => (
             </div>   
         </div> 
 
-        <div className="content" id="code8">
+        <div className="content ml" id="schema8">
+            <h4>Блок-схема виконання алгоритму</h4 >
+            <div> <img src={schema8} alt="schema" width={500}/></div>
+        </div> 
+
+        <div className="content ml" id="code8">
         <h4>Текст програми</h4>
         <AceEditor
             mode="html"
@@ -66,21 +72,20 @@ const Content8 = () => (
             editorProps={{ $blockScrolling: true }}
             />
         </div>
-
         
-        <div className="content" id="result8">
+        <div className="content ml" id="result8">
             <h4>Результати виконання програми</h4>
             <img src={result} alt="schema"/>
         </div>
 
 
-        <div className="content" id="check8">
+        <div className="content ml" id="check8">
             <h4>Аналіз достовірності результатів</h4>
             <div> Маємо дані v =[3,4,5], M = [[0,1,2],[3,4,5],[6,7,8]]. 
                 <p>Транспонуємо матрицю - змінюємо індекси рядів і колонок місцями: </p>
                 <p>M =[[0,3,6] [1,4,7], [2,5,8]]</p>
                  <p>Перемножуємо вектор та матрицю:</p>
-                 Для цього множимо кожне значення ряда матриці на відповідне значення ряда вектора та смуємо значення.
+                 <p> Для цього множимо кожне значення ряда матриці на відповідне значення ряда вектора та смуємо значення.</p>
                  0 * 4 + 3 * 4 + 6* 5 = 42
                  1*3 + 4*4 + 7 * 5 = 54
                  2 * 3 + 5 * 4 + 8 * 5 = 66
@@ -89,7 +94,7 @@ const Content8 = () => (
                  Значення вірне!</div>
         </div>
 
-        <div className="content" id="summary8">
+        <div className="content ml" id="summary8">
             <h4>Висновки</h4>
             <ul>Виконавши дану лабораторну роботу, ми:
                 <li>Вивчили особливості роботи з багатовимірними масивівами даних</li>
@@ -97,7 +102,7 @@ const Content8 = () => (
             </ul>
         </div>
 
-        <div className="content" id="answers8">
+        <div className="content ml" id="answers8">
         <h4>Відповіді на контрольні питання</h4>
         <h4>Дати означення матриці.</h4>
         <p>Матриця – це двовимірний масив, кожен елемент якого має два індекси: номер рядка та номер стовпця, <br/>тому для роботи з елементами матриці необхідно використовувати два цикли.</p>

@@ -5,7 +5,7 @@ import schema7 from "../static/schema7.jpg";
 
 const Content7 = () => (
     <div className="content">
-        <div id="meta7">
+        <div id="meta7" className="content ml">
             <h3>Лабораторна робота №7</h3>
             <h4>Тема: Одновимірні масиви</h4>
             <ul><h4>Мета роботи:</h4>
@@ -15,13 +15,13 @@ const Content7 = () => (
             </ul>
         </div>
 
-        <div className="content" id="task7">
+        <div className="content ml" id="task7">
         <h4>Варіант №17</h4>
         <h4>Умова завдання</h4>
         <p>Задати два упорядкованих за зростанням одновимірних масиви. <br/>Побудувати упорядкований за зростанням третій масив злиттям двох заданих.</p>
         </div>
 
-        <div className="content" id="analize7">
+        <div className="content ml" id="analize7">
             <h4>Аналіз задачі, теоретичні обгрунтування вибраного методу вирішення задачі,<br/> розрахункові формули, посилання на літературні джерела.</h4>
       
         <ul>Для вирішення задачі ідеально підходить алгоритм Сортування злиттям, за умовою якого:
@@ -31,7 +31,7 @@ const Content7 = () => (
         </ul>
         </div>
 
-        <div className="content" id="descr7">
+        <div className="content ml" id="descr7">
             <h4>Опис алгоритму розв'язання задачі.</h4>
             <div>
             <ul>
@@ -59,12 +59,12 @@ const Content7 = () => (
             </div>   
         </div> 
 
-        <div className="content" id="schema7">
+        <div className="content ml" id="schema7">
             <h4>Блок-схема Сортування злиттям</h4>
             <img src={schema7} alt="schema" width={500}/>
         </div> 
 
-        <div className="content" id="code7">
+        <div className="content ml" id="code7">
         <h4>Текст програми</h4>
         <AceEditor
             mode="html"
@@ -75,19 +75,19 @@ const Content7 = () => (
             />
         </div>
 
-        <div className="content" id="result7">
+        <div className="content ml" id="result7">
             <h4>Результати виконання програми</h4>
             <img src={res} alt="result"/>
         </div>
         
-        <div className="content" id="check7">
+        <div className="content ml" id="check7">
             <h4>Аналіз достовірності результатів</h4>
           <p>Якщо подивитися вхідні дані з якими працювала функція <br/>
          {`one = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}, two = {10, 11, 12, 13, 14, 15, 16, 17, 18, 19}`} ,  <br/>
           то можна зрозуміти що отриманий результат відсортовано правильно </p>
         </div>
 
-        <div className="content" id="summary7">
+        <div className="content ml" id="summary7">
             <h4>Висновки</h4>
             <ul>Виконавши дану лабораторну роботу, ми:
                 <li>Вивчили особливості роботи з масивами даних</li>
@@ -95,7 +95,7 @@ const Content7 = () => (
             </ul>
         </div>
 
-        <div className="content" id="answers7">
+        <div className="content ml" id="answers7">
             <h4>Відповіді на контрольні питання</h4>
             <h5>Дати означення масиву та типу масиву</h5>
             <p>Тип масиву — це структурований тип даних, множина допустимих значень <br/> котрого складається з усіх масивів, для яких зафіксовано: <br/>

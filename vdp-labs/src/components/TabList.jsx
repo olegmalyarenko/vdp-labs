@@ -41,9 +41,6 @@ const TabList = () => {
     <TabPane tab="Лабораторна робота 9" key="9">
      <Lab9/>
     </TabPane>
-    <TabPane tab="Лабораторна робота 10" key="10">
-      Content of card tab 10
-    </TabPane>
     </Tabs>
 )};
 
